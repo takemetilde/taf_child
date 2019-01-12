@@ -13,8 +13,8 @@ import static java.lang.String.format;
 public enum Environment {
 
     SIT(
-            i -> format("sit%d.eportal.anthem.com/", i),
-            i -> format("https://sit%d.eportal.anthem.com/", i),
+            i -> format("sit%d.eportal.taf.com/", i),
+            i -> format("https://sit%d.eportal.taf.com/", i),
             "", ""),
 
 

@@ -1,7 +1,7 @@
 package com.taf.auto.steps;
 
-import com.anthem.auto.pages.BasePage;
-import com.anthem.utils.StringUtils;
+import com.taf.auto.pages.BasePage;
+import com.taf.utils.StringUtils;
 import cucumber.api.java.en.Then;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +14,7 @@ public class PageSteps {
 
     private static final Logger LOG = LoggerFactory.getLogger(PageSteps.class);
     BasePage page;
-    private static final String PAGES_PACKAGE = "com.anthem.auto.pages.";
+    private static final String PAGES_PACKAGE = "com.taf.auto.pages.";
 
     //~ Methods --------------------------------------------------------------------------------------------------------
 

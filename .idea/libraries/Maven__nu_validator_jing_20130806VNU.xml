@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: nu.validator:jing:20130806VNU">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/nu/validator/jing/20130806VNU/jing-20130806VNU.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/nu/validator/jing/20130806VNU/jing-20130806VNU-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/nu/validator/jing/20130806VNU/jing-20130806VNU-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

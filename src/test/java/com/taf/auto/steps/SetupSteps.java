@@ -1,14 +1,13 @@
 package com.taf.auto.steps;
 
-import com.anthem.auto.page.AbstractPage;
-import com.anthem.auto.pages.LoginPage;
-import com.anthem.enums.Environment;
-import com.anthem.maps.DataMaps;
+import com.taf.auto.page.AbstractPage;
+import com.taf.auto.pages.LoginPage;
+import com.taf.enums.Environment;
 import cucumber.api.java.en.Given;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.anthem.utils.WebDriverUtils.getDriverInstance;
+import static com.taf.utils.WebDriverUtils.getDriverInstance;
 
 public class SetupSteps {
 
@@ -43,7 +42,7 @@ public class SetupSteps {
     private void directLogin(String username) {
         getDriverInstance().get(Environment.getLoginUrl());
         loginPage = AbstractPage.install(LoginPage.class);
-        loginPage.login(DataMaps.getDataValue(username), DataMaps.getSharedDataValue("Generic Password"));
-        loginPage.waitForLoginSuccess();
+//        loginPage.login(DataMaps.getDataValue(username), DataMaps.getSharedDataValue("Generic Password"));
+//        loginPage.waitForLoginSuccess();
     }
 }
