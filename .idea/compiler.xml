@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="jaxb2-generate-sources" target="1.8" />
       <module name="taf_child" target="1.8" />
     </bytecodeTargetLevel>
   </component>

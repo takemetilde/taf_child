@@ -1,7 +1,7 @@
 package com.taf.enums;
 
 /**
- * Created by AD89878 on 7/20/2016.
+ *
  */
 public enum Page {
     HOME,
